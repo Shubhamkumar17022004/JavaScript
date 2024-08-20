@@ -10,10 +10,9 @@ while (true) {
             console.log("Index value" + i + " " + arr[i]);
         }
     }
-
     else if (store == 'delete') {
         let del = prompt("Enter the index value of element to delete");
-        arr.splice(del,1);
+        arr.splice(del, 1);
         alert("Deleted sucessfully" + del + "INDEX ");
     }
     else if (store == 0) {
